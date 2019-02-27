@@ -8,18 +8,17 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <div class="columns is-multiline is-mobile">
+          <div>
 
-            <div class="column is-one-quarter">
+            <div>
               <MainToolbar />
             </div>
-            <div class="column">
-              <div class="container">
-                <Route path="/about" component={About} />
-              </div>
-            </div>
 
+            <div class="container">
+              <Route path="/about" component={About} />
+            </div>
           </div>
+
         </div>
       </BrowserRouter>
     );
