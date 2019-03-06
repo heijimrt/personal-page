@@ -3,8 +3,10 @@ import Menu from './Menu';
 
 const MainToolbar = () => {
     return (
-        <div>
-            @heijimrt
+        <div className="main-toolbar">
+            <div className="home-title">
+                @heijimrt
+            </div>
             <Menu />
         </div>
     );

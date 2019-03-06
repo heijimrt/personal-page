@@ -13,4 +13,22 @@ code {
     monospace;
 }
 
+@font-face {
+  font-family: nunito;
+  src: url('/public/assets/fonts/nunito/Nunito-SemiBold.ttf');
+}
+
 @import 'bulma';
+
+.main-toolbar {
+  background-color: #4c007b;
+  position: relative;
+  font-family: nunito;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.home-title {
+  float: left;
+}
